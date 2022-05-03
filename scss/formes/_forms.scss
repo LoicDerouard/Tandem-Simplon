@@ -50,11 +50,13 @@
     background-color: rgba(0, 0, 0, 0);
   }
   .carre {
+    position: absolute;
     background-color: #f48400;
     width: 70px;
     height: 70px;
   }
   .parallelogramme{
+    position: absolute;
     width: 55px;
     height: 100px;
     transform: skew(20deg);
