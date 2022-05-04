@@ -1,4 +1,4 @@
-.bougie .triangle_un {
+.triangle_un {
   width: 0;
   height: 0;
   position: absolute;
@@ -7,12 +7,12 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 75%;
-  left: 31%;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  top: 26.5%;
+  left: 24.4%;
+  transform: rotate(150deg);
 }
-.bougie .triangle_deux {
+
+.triangle_deux {
   width: 0;
   height: 0;
   position: absolute;
@@ -21,12 +21,12 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 43%;
-  left: 12%;
-  -webkit-transform: rotate(280deg);
-          transform: rotate(280deg);
+  top: 46%;
+  left: 19%;
+  transform: rotate(240deg);
 }
-.bougie .triangle_trois {
+
+.triangle_trois {
   width: 0;
   height: 0;
   position: absolute;
@@ -35,12 +35,12 @@
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 38%;
-  left: 74%;
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
+  top: 31%;
+  left: 48%;
+  transform: rotate(153deg);
 }
-.bougie .triangle_quatre {
+
+.triangle_quatre {
   width: 0;
   height: 0;
   position: absolute;
@@ -49,12 +49,12 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 47%;
-  left: 23%;
-  -webkit-transform: rotate(225deg);
-          transform: rotate(225deg);
+  top: 10%;
+  left: 10.2%;
+  transform: rotate(330deg);
 }
-.bougie .triangle_cinq {
+
+.triangle_cinq {
   width: 0;
   height: 0;
   position: absolute;
@@ -63,24 +63,29 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 48%;
-  left: 50%;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  top: 6%;
+  left: 50.5%;
+  transform: rotate(197deg);
 }
-.bougie .carre {
+
+.carre {
   position: absolute;
   background-color: #f48400;
   width: 70px;
   height: 70px;
+  top: 40.5%;
+  left: 23%;
+  transform: rotate(105deg);
 }
-.bougie .parallelogramme {
+
+.parallelogramme {
   background-color: #d2696a;
   position: absolute;
-  width: 45px;
-  height: 90px;
-  transform: skew(30deg) rotate(45deg);
-  margin-left: 200px;
+  width: 55px;
+  height: 100px;
+  transform: rotate(59deg) skew(199deg);
+  top: 25%;
+  left: 42%;
 }
 
 @font-face {
@@ -197,8 +202,7 @@ html {
   height: 500px;
   width: 500px;
   background-color: #222222;
-  -webkit-box-shadow: 12px 12px 12px black;
-          box-shadow: 12px 12px 12px black;
+  box-shadow: 12px 12px 12px black;
   position: absolute;
 }
 
@@ -210,5 +214,4 @@ html {
   display: flex;
   align-self: center;
   padding-left: 200px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
