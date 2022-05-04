@@ -7,7 +7,10 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  margin-left: 300px;
+  top: 75%;
+  left: 31%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .bougie .triangle_deux {
   width: 0;
@@ -18,6 +21,10 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
+  top: 43%;
+  left: 12%;
+  -webkit-transform: rotate(280deg);
+          transform: rotate(280deg);
 }
 .bougie .triangle_trois {
   width: 0;
@@ -28,6 +35,10 @@
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   background-color: rgba(0, 0, 0, 0);
+  top: 38%;
+  left: 74%;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
 .bougie .triangle_quatre {
   width: 0;
@@ -38,7 +49,10 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(90deg);
+  top: 47%;
+  left: 23%;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
 }
 .bougie .triangle_cinq {
   width: 0;
@@ -49,6 +63,10 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
+  top: 48%;
+  left: 50%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .bougie .carre {
   position: absolute;
@@ -168,13 +186,20 @@ h1 {
   outline-color: #fff;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
 .carre_tangram {
+  top: 50%;
   outline: auto;
   height: 500px;
   width: 500px;
   background-color: #222222;
-  box-shadow: 12px 12px 12px black;
-  position: relative;
+  -webkit-box-shadow: 12px 12px 12px black;
+          box-shadow: 12px 12px 12px black;
+  position: absolute;
 }
 
 .bouton {
@@ -185,4 +210,5 @@ h1 {
   display: flex;
   align-self: center;
   padding-left: 200px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
