@@ -2,238 +2,454 @@
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #d2696a;
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
   margin-left: 300px;
-  left: -19%;
-  top: 47%;
 }
+
 .bougie .triangle_deux {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #7e2b7c;
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  left: 41%;
-  top: 69%;
 }
+
 .bougie .triangle_trois {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 70px solid #189184;
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(90deg);
-  left: 45%;
-  top: 35%;
 }
+
 .bougie .triangle_quatre {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #fbc002;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(180deg);
-  left: 42%;
-  top: 48%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
+
 .bougie .triangle_cinq {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #b20000;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(270deg);
-  left: 42%;
-  top: 69%;
 }
+
 .bougie .carre {
   position: absolute;
   background-color: #f48400;
   width: 70px;
   height: 70px;
-  left: 46%;
-  top: 27%;
-  z-index: 9;
-}
-.bougie .parallelogramme {
-  position: absolute;
-  width: 55px;
-  height: 100px;
-  transform: rotate(55deg) skew(35deg);
-  left: 50%;
-  top: 6%;
-  background-color: #d2696a;
-  z-index: 1;
 }
 
-.cygne .triangle_un {
+.bougie .parallelogramme {
+  background-color: #ffffff;
+  position: absolute;
+  width: 45px;
+  height: 90px;
+  -webkit-transform: skew(40deg) rotate(35deg);
+          transform: skew(40deg) rotate(35deg);
+  margin-left: 200px;
+}
+
+.triangle_un {
+  left: 39%;
+  top: 10%;
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #d2696a;
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  margin-left: 300px;
-  left: -19%;
-  top: 47%;
 }
-.cygne .triangle_deux {
+
+.triangle_deux {
+  left: 49%;
+  top: 10%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #7e2b7c;
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  left: 41%;
-  top: 69%;
 }
-.cygne .triangle_trois {
+
+.triangle_trois {
+  left: 35%;
+  top: 40%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 70px solid #189184;
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(90deg);
-  left: 45%;
-  top: 35%;
 }
-.cygne .triangle_quatre {
+
+.triangle_quatre {
+  top: 61%;
+  left: 52%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #fbc002;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(180deg);
-  left: 42%;
-  top: 48%;
 }
-.cygne .triangle_cinq {
+
+.triangle_cinq {
+  left: 49%;
+  top: 40%;
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #b20000;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(270deg);
-  left: 42%;
-  top: 69%;
 }
-.cygne .carre {
+
+.carre {
+  left: 42%;
+  top: 23%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   position: absolute;
   background-color: #f48400;
   width: 70px;
   height: 70px;
-  left: 46%;
-  top: 27%;
-  z-index: 9;
 }
-.cygne .parallelogramme {
-  position: absolute;
-  width: 55px;
-  height: 100px;
-  transform: rotate(55deg) skew(35deg);
-  left: 50%;
-  top: 6%;
+
+.parallelogramme {
+  left: 74%;
+  top: 77%;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
   background-color: #d2696a;
-  z-index: 1;
+  position: absolute;
+  width: 100px;
+  height: 55px;
 }
 
 .triangle_un {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #d2696a;
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 75%;
-  left: 31%;
-  transform: rotate(45deg);
+  left: 42%;
+  top: 52%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .triangle_deux {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #7e2b7c;
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 43%;
-  left: 12%;
-  transform: rotate(280deg);
+  left: 68%;
+  top: 48%;
 }
 
 .triangle_trois {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 70px solid #189184;
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 38%;
-  left: 74%;
-  transform: rotate(270deg);
+  top: 49%;
+  left: 55%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .triangle_quatre {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #fbc002;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 47%;
-  left: 23%;
-  transform: rotate(225deg);
+  top: 20%;
+  left: 36%;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
 
 .triangle_cinq {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #b20000;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
+  top: 56%;
+  left: 36%;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+
+.carre {
+  position: absolute;
+  background-color: #f48400;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  left: 19%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.parallelogramme {
+  background-color: #d2696a;
+  position: absolute;
+  width: 55px;
+  height: 80px;
+  -webkit-transform: rotate(135deg) skew(45deg);
+          transform: rotate(135deg) skew(45deg);
+  top: 44%;
+  left: 46%;
+}
+
+.triangle_un {
+  left: 41%;
+  top: 51%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 50px solid #d2696a;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.triangle_deux {
+  left: 31%;
+  top: 51%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 50px solid #7e2b7c;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.triangle_trois {
+  left: 29%;
+  top: 69%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 70px solid #189184;
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.triangle_quatre {
+  left: 60%;
+  top: 60%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 100px solid #fbc002;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.triangle_cinq {
+  left: 40%;
+  top: 60%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 100px solid #b20000;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.carre {
+  left: 19%;
+  top: 69%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  background-color: #f48400;
+  width: 70px;
+  height: 70px;
+}
+
+.parallelogramme {
+  left: 13%;
+  top: 45%;
+  -webkit-transform: skew(45deg) rotate(45deg);
+          transform: skew(45deg) rotate(45deg);
+  background-color: #d2696a;
+  position: absolute;
+  width: 55px;
+  height: 100px;
+}
+
+.triangle_un {
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 50px solid #d2696a;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 300px;
+  left: -19%;
+  top: 47%;
+}
+
+.triangle_deux {
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 50px solid #7e2b7c;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+  left: 41%;
+  top: 69%;
+}
+
+.triangle_trois {
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 70px solid #189184;
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+  transform: rotate(90deg);
+  left: 45%;
+  top: 35%;
+}
+
+.triangle_quatre {
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 100px solid #fbc002;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+  transform: rotate(180deg);
+  left: 42%;
   top: 48%;
-  left: 50%;
-  transform: rotate(45deg);
+}
+
+.triangle_cinq {
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  border-left: 100px solid #b20000;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+  transform: rotate(270deg);
+  left: 42%;
+  top: 69%;
 }
 
 .carre {
@@ -249,69 +465,78 @@
   position: absolute;
   width: 55px;
   height: 100px;
-  transform: rotate(83deg) skew(35deg);
+  -webkit-transform: rotate(83deg) skew(35deg);
+          transform: rotate(83deg) skew(35deg);
   left: 70%;
   top: 35%;
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format("truetype");
 }
+
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   padding: 0;
   background-color: #333333;
@@ -330,9 +555,16 @@ h1 {
 }
 
 .first_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-height: 70vh;
 }
 
@@ -363,7 +595,7 @@ html {
 }
 
 .carre_tangram {
-  top: 50%;
+  top: 400px;
   outline: auto;
   height: 500px;
   width: 500px;
@@ -373,19 +605,65 @@ html {
 }
 
 .bouton {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .bouton .btn_carre .boutonhaut {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   padding-left: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 30px;
+  }
+  .bouton .btn_carre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bouton .btn_carre .boutonhaut {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    padding-left: 0%;
+  }
+  .carre_tangram {
+    top: 600px;
+    outline: auto;
+    height: 400px;
+    width: 400px;
+    background-color: #222222;
+    -webkit-box-shadow: 12px 12px 12px black;
+            box-shadow: 12px 12px 12px black;
+    position: absolute;
+  }
 }
 
 .triangle_un {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #d2696a;
   border-top: 50px solid transparent;
@@ -398,6 +676,7 @@ html {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #7e2b7c;
   border-top: 50px solid transparent;
@@ -409,6 +688,7 @@ html {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 70px solid #189184;
   border-top: 70px solid transparent;
@@ -420,6 +700,7 @@ html {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #fbc002;
   border-top: 100px solid transparent;
@@ -431,6 +712,7 @@ html {
   width: 0;
   height: 0;
   position: absolute;
+  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #b20000;
   border-top: 100px solid transparent;
@@ -450,6 +732,8 @@ html {
   position: absolute;
   width: 55px;
   height: 100px;
-  transform: skew(20deg);
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
   margin: 200px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
