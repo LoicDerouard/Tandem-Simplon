@@ -129,16 +129,23 @@ html {
     flex-direction: column;
 
     .btn_carre {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         .boutonhaut {
             display: flex;
-            align-self: center;
-            padding-left: 200px;
+            flex-direction: row;
+            align-items: center;
+            width: 300px
         }
     }
 }
 #menu
 {display: none;}
-
+input
+{
+    display: none;
+}
 @media screen and (max-width: 1000px) {
     h1 {
         font-size: 30px;
