@@ -1,4 +1,4 @@
-.bougie .triangle_un {
+.triangle_un {
   width: 0;
   height: 0;
   position: absolute;
@@ -8,8 +8,11 @@
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
   margin-left: 300px;
+  left: -19%;
+  top: 47%;
 }
-.bougie .triangle_deux {
+
+.triangle_deux {
   width: 0;
   height: 0;
   position: absolute;
@@ -18,8 +21,11 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
+  left: 41%;
+  top: 69%;
 }
-.bougie .triangle_trois {
+
+.triangle_trois {
   width: 0;
   height: 0;
   position: absolute;
@@ -28,8 +34,12 @@
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   background-color: rgba(0, 0, 0, 0);
+  transform: rotate(90deg);
+  left: 45%;
+  top: 35%;
 }
-.bougie .triangle_quatre {
+
+.triangle_quatre {
   width: 0;
   height: 0;
   position: absolute;
@@ -38,9 +48,12 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(90deg);
+  transform: rotate(180deg);
+  left: 42%;
+  top: 48%;
 }
-.bougie .triangle_cinq {
+
+.triangle_cinq {
   width: 0;
   height: 0;
   position: absolute;
@@ -49,18 +62,27 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
+  transform: rotate(270deg);
+  left: 42%;
+  top: 69%;
 }
-.bougie .carre {
+
+.carre {
   position: absolute;
   background-color: #f48400;
   width: 70px;
   height: 70px;
+  left: 46%;
+  top: 27%;
+  z-index: 9;
 }
-.bougie .parallelogramme {
-  background-color: #ffffff;
+
+.parallelogramme {
   position: absolute;
-  width: 45px;
-  height: 90px;
-  transform: skew(40deg) rotate(35deg);
-  margin-left: 200px;
+  width: 100px;
+  height: 50px;
+  transform: rotate(-70deg) skew(-45deg);
+  left: 44%;
+  top: 12%;
+  background-color: #d2696a;
 }
