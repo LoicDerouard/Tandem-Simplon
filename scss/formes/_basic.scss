@@ -1,0 +1,82 @@
+.triangle_un {
+    top: 40%;
+    left: 43%;
+    transform: rotate(-90deg);
+    width: 0;
+    height: 0;
+    position: absolute;
+    transition: all 2s;
+    border-left: 50px solid #d269aa;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .triangle_deux {
+    left: 58%;
+    top: 25%;
+    transform: rotate(180deg);
+    width: 0;
+    height: 0;
+    position: absolute;
+    transition: all 2s;
+    border-left: 50px solid #7e2b7c;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .triangle_trois {  
+    left: 56%;
+    top: 46%;
+    transform: rotate(45deg);
+    width: 0;
+    height: 0;
+    position: absolute;
+    transition: all 2s;
+    border-left: 70px solid #189184;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .triangle_quatre {
+      top: 25%;
+      left: 28%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    transition: all 2s;
+    border-left: 100px solid #fbc002;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .triangle_cinq {
+      transform: rotate(90deg);
+      left: 38%;
+      top: 15%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    transition: all 2s;
+    border-left: 100px solid #b20000;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .carre {
+      left: 51%;
+      top: 38%;
+      transform: rotate(45deg);
+    position: absolute;
+    background-color: #f48400;
+    width: 70px;
+    height: 70px;
+  }
+  .parallelogramme{
+      top: 55%;
+      left: 33%;
+    background-color: #d2696a;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    transform: skew(-45deg);
+  }
