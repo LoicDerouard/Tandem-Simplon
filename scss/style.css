@@ -8,9 +8,10 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  margin-left: 300px;
-  left: -19%;
-  top: 47%;
+  top: 75%;
+  left: 31%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .triangle_deux {
@@ -23,8 +24,10 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  left: 41%;
-  top: 69%;
+  top: 43%;
+  left: 12%;
+  -webkit-transform: rotate(280deg);
+          transform: rotate(280deg);
 }
 
 .triangle_trois {
@@ -37,9 +40,10 @@
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(90deg);
-  left: 45%;
-  top: 35%;
+  top: 38%;
+  left: 74%;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
 
 .triangle_quatre {
@@ -52,9 +56,10 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(180deg);
-  left: 42%;
-  top: 48%;
+  top: 47%;
+  left: 23%;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
 }
 
 .triangle_cinq {
@@ -67,9 +72,10 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  transform: rotate(270deg);
-  left: 42%;
-  top: 69%;
+  top: 48%;
+  left: 50%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .carre {
@@ -315,7 +321,8 @@ html {
   height: 500px;
   width: 500px;
   background-color: #222222;
-  box-shadow: 12px 12px 12px black;
+  -webkit-box-shadow: 12px 12px 12px black;
+          box-shadow: 12px 12px 12px black;
   position: absolute;
 }
 
