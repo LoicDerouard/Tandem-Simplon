@@ -189,8 +189,7 @@
   left: 31%;
   transform: rotate(45deg);
 }
-
-.triangle_deux {
+.bougie .triangle_deux {
   width: 0;
   height: 0;
   position: absolute;
@@ -203,8 +202,7 @@
   left: 12%;
   transform: rotate(280deg);
 }
-
-.triangle_trois {
+.bougie .triangle_trois {
   width: 0;
   height: 0;
   position: absolute;
@@ -213,12 +211,12 @@
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   background-color: rgba(0, 0, 0, 0);
-  top: 45%;
-  left: 65%;
-  transform: rotate(270deg);
+  top: 38%;
+  left: 74%;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
-
-.triangle_quatre {
+.bougie .triangle_quatre {
   width: 0;
   height: 0;
   position: absolute;
@@ -231,8 +229,7 @@
   left: 23%;
   transform: rotate(225deg);
 }
-
-.triangle_cinq {
+.bougie .triangle_cinq {
   width: 0;
   height: 0;
   position: absolute;
@@ -245,23 +242,19 @@
   left: 50%;
   transform: rotate(45deg);
 }
-
-.carre {
+.bougie .carre {
   position: absolute;
   background-color: #f48400;
   width: 70px;
   height: 70px;
-  top: 75%;
-  left: 53%;
 }
-
-.parallelogramme {
+.bougie .parallelogramme {
+  background-color: #d2696a;
   position: absolute;
-  width: 55px;
-  height: 100px;
-  transform: rotate(90deg) skew(35deg);
-  left: 72%;
-  top: 35%;
+  width: 45px;
+  height: 90px;
+  transform: skew(30deg) rotate(45deg);
+  margin-left: 200px;
 }
 
 @font-face {
@@ -391,6 +384,7 @@ html {
   align-self: center;
   padding-left: 200px;
 }
+<<<<<<< HEAD
 
 .triangle_un {
   width: 0;
@@ -463,3 +457,6 @@ html {
   transform: skew(20deg);
   margin: 200px;
 }/*# sourceMappingURL=style.css.map */
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> bec362a9efc761bba0557078c7e3c4ff0d3ab306
