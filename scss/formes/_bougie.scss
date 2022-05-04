@@ -9,6 +9,8 @@
     border-bottom: 50px solid transparent;
     background-color: rgba(0, 0, 0, 0);
     margin-left: 300px;
+    left: -19%;
+    top: 47%;
   }
   .triangle_deux {
     width: 0;
@@ -19,6 +21,8 @@
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
     background-color: rgba(0, 0, 0, 0);
+    left: 41%;
+    top: 69%;
   }
   .triangle_trois {
     width: 0;
@@ -29,6 +33,9 @@
     border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
     background-color: rgba(0, 0, 0, 0);
+    transform: rotate(90deg);
+    left: 45%;
+    top: 35%;
   }
   .triangle_quatre {
     width: 0;
@@ -39,7 +46,9 @@
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
     background-color: rgba(0, 0, 0, 0);
-    transform: rotate(90deg);
+    transform: rotate(180deg);
+    left: 42%;
+    top: 48%;
   }
   .triangle_cinq {
     width: 0;
@@ -50,19 +59,27 @@
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
     background-color: rgba(0, 0, 0, 0);
+    transform: rotate(270deg);
+    left: 42%;
+    top: 69%;
   }
   .carre {
     position: absolute;
     background-color: #f48400;
     width: 70px;
     height: 70px;
+    left: 46%;
+    top: 27%;
+    z-index: 9;
   }
   .parallelogramme{
-    background-color: #ffffff;
     position: absolute;
-    width: 45px;
-    height: 90px;
-    transform: skew(40deg) rotate(35deg);
-    margin-left: 200px;
+    width: 55px;
+    height: 100px;
+    transform: rotate(55deg) skew(35deg);
+    left: 50%;
+    top: 6%;
+    background-color: #d2696a;
+    z-index: 1;
   }
 }
