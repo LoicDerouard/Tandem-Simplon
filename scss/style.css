@@ -896,7 +896,7 @@
   transform: rotate(45deg);
 }
 
-.triangle_deux {
+.chien .triangle_deux {
   width: 0;
   height: 0;
   position: absolute;
@@ -910,7 +910,7 @@
   transform: rotate(280deg);
 }
 
-.triangle_trois {
+.chien .triangle_trois {
   width: 0;
   height: 0;
   position: absolute;
@@ -924,7 +924,7 @@
   transform: rotate(270deg);
 }
 
-.triangle_quatre {
+.chien .triangle_quatre {
   width: 0;
   height: 0;
   position: absolute;
@@ -938,7 +938,7 @@
   transform: rotate(225deg);
 }
 
-.triangle_cinq {
+.chien .triangle_cinq {
   width: 0;
   height: 0;
   position: absolute;
@@ -952,7 +952,7 @@
   transform: rotate(45deg);
 }
 
-.carre {
+.chien .carre {
   position: absolute;
   background-color: #f48400;
   width: 70px;
@@ -961,7 +961,7 @@
   left: 53%;
 }
 
-.parallelogramme {
+.chien .parallelogramme {
   position: absolute;
   width: 55px;
   height: 100px;
@@ -971,7 +971,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .triangle_un {
+  .chien .triangle_un {
     width: 0;
     height: 0;
     position: absolute;
